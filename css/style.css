@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+
+:root{
+    --primary:#1a253f;
+    --dark:#121A33;
+    --secondary:#2b55cc;
+    --info:#4d79f6;
+    --ternary:#848db3;
+    --pure:#eff2f9;
+    --fade:#7081b9;
+    --mild:#8997bd;
+    --footer:#212A4A;
+    --black:#060b1b;
+    --twitter:#4ac7ec;
+    --dribbble:#ff5da0;
+    --success:#1ecab8;
+    --danger:#f1646c;
+    --dark-blue:#28365f;
+
+
+}
