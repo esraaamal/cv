@@ -16,6 +16,81 @@
     --success:#1ecab8;
     --danger:#f1646c;
     --dark-blue:#28365f;
+}
 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'IBM Plex Sans',sans-serif;
+    background: var(--dark);
+    -webkit-font-smoothing:antialiased;
 
 }
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    line-height: 1;
+}
+
+.container{
+    /* background: brown; */
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+nav{
+    background: var(--primary);
+    padding: 1.6rem 0;
+}
+
+nav .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .inner .logo1{
+    text-transform: uppercase;
+    color: var(--pure);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+nav .inner .logo1 .fas{
+color: var(--info);
+}
+
+nav .inner button{
+    background: var(--secondary);
+    border: none;
+    padding: 0.6rem 1rem;
+    color: var(--pure);
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.profile .left img{
+    height: 128px;
+    width: 128px;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
