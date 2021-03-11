@@ -55,8 +55,21 @@ let done=0;
     runCounter();
  }
 
- 
+
  },options)
 
     sectionObserver.observe(counterSection)
+
+
+
+//image filter
+
+var $wrapper=$('.portfolio__wrapper');
+
+
+
+
+
+
+
 })
