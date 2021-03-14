@@ -10,7 +10,7 @@ $(document).ready(function(){
     let tooltip=bar.children[0];
     tooltip.innerText=percentage+'%';
     bar.style.width= percentage+'%';
-    console.log(percentage);
+    // console.log(percentage);
     });
 
 
@@ -67,9 +67,62 @@ let done=0;
 var $wrapper=$('.portfolio__wrapper');
 
 
+//initaliztion isotope 
+
+$wrapper.isotope({
+    filter:'*',
+    layoutMode:'masonry',
+    animationOptions:{
+        duration:650,
+        easing:'linear'
+    }
+
+});
+
+let links=document.querySelectorAll('.tabs  a');
+
+links.forEach(link=>{
+    let selector=link.dataset.filter;
+    console.log(selector)
+    link.addEventListener('click', function(e){
+        e.preventDefault();
+        $wrapper.isotope({
+            filter:selector,
+            layoutMode:'masonry',
+            animationOptions:{
+                duration:650,
+                easing:'linear'
+            }
+        
+        });
+       
+        links.forEach(link=>{
+            link.classList.remove('active')
+        })
+        e.target.classList.add('active');
+        
+    })
+})
 
 
+//magnify popup
 
+$('.magnify').magnificPopup({
+    type:'image',
+    gallery:{
+        enabled:true
+    },
+    zoom:{
+        enabled:true
+    },
+});
+
+
+// Slider
+$('.slider').slick({
+    arrows:false,
+    autoplay:true
+});
 
 
 })

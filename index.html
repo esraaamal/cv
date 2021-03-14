@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <link rel="stylesheet" href="./plugins/headline/headline.css">
+    <link rel="stylesheet" href="./plugins/magnify.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <title>Cv</title>
 </head>
@@ -263,9 +265,48 @@
 <section class="work">
     <h1 class="section__heading">My Works & Review</h1>
     <div class="wrapper">
-        <div class="slider">
-            Here will be slider
+        <div class="slider__wrapper">
+            <div class="icon__wrap">
+                <i class="far fa-comments"></i>
+            </div>
+            <div class="slider">
+                <div class="slide">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s
+                    </p>
+                    <div>
+                        <img src="./images/1.jpg">
+                    </div>
+                    <h2>- Reham Omar</h2>
+                    <h6>Senior Web Developer</h6>
+                </div>
+
+
+
+                <div class="slide">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s
+                    </p>
+                    <div>
+                        <img src="./images/1.jpg">
+                    </div>
+                    <h2>- Reham Omar</h2>
+                    <h6>Senior Web Developer</h6>
+                </div>
+
+
+            </div>
         </div>
+
+
+
+
+
+        <!-- ///////////////////////////////////// -->
         <div class="portfolio">
             <div class="tabs">
                 <ul>
@@ -282,43 +323,43 @@
 
             <div class="portfolio__wrapper">
                 <div class="item design">
-                    <a href="#">
+                    <a class="magnify" href="./images/1.jpg">
                         <img src="./images/1.jpg">
                     </a>
                 </div>
                 <!-- ///////////////////////// -->
                 <div class="item frontend">
-                    <a href="#">
+                    <a class="magnify" href="./images/2.jpg">
                         <img src="./images/2.jpg">
                     </a>
                 </div>
                 <!-- ///////////////////////// -->
                 <div class="item backend">
-                    <a href="#">
+                    <a class="magnify" href="./images/3.jpg">
                         <img src="./images/3.jpg">
                     </a>
                 </div>
                 <!-- ////////////////////// -->
                 <div class="item design">
-                    <a href="#">
+                    <a class="magnify" href="./images/4.jpg">
                         <img src="./images/4.jpg">
                     </a>
                 </div>
                 <!-- /////////////////////// -->
                 <div class="item design">
-                    <a href="#">
+                    <a class="magnify" href="./images/5.jpg">
                         <img src="./images/5.jpg">
                     </a>
                 </div>
                 <!-- ///////////////////////// -->
                 <div class="item backend">
-                    <a href="#">
+                    <a class="magnify" href="./images/3.jpg">
                         <img src="./images/3.jpg">
                     </a>
                 </div>
                 <!-- //////////////////////// -->
                 <div class="item frontend">
-                    <a href="#">
+                    <a class="magnify" href="./images/3.jpg">
                         <img src="./images/3.jpg">
                     </a>
                 </div>
@@ -348,8 +389,10 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="./plugins/isotope.js"></script>
+    <script src="./plugins/magnify.js"></script>
     <script src="./plugins/headline/headline.js"></script>
     <script src="./plugins/headline/ripples.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/app.js"></script>
 </body>
 
