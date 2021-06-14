@@ -84,6 +84,7 @@ padding: 3rem;
 margin-top: 60px;
 clip-path: polygon(0 0,100% 0,100% 80%,25% 100%,0 80%);
 padding-bottom: 4rem;
+cursor: url("/images/red-flower.png"),auto;
 }
 
 section.profile .left{
@@ -133,7 +134,6 @@ section.profile .left img{
   will-change: transform;
 
 }
-
 section.profile .left .avater__block span{
     position: absolute;
     margin-left: 99px;
@@ -147,7 +147,7 @@ align-items: center;
 justify-content: center;
 color: var(--pure);
 box-shadow: 0px 0px 20px 0pc rgba(32,41,54,0.05);
-cursor: pointer;
+cursor: url("red-flower.png"),auto;
 }
 
 
